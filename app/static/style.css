@@ -1,0 +1,62 @@
+/* Background */
+body {
+    font-family: Arial, sans-serif;
+    background:  linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background: #1f2a40;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+/* Textarea */
+textarea {
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Dropdown */
+select {
+    padding: 8px;
+    border-radius: 6px;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    background: #ff4b2b;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff416c;
+}
+
+/* Movie Cards */
+.movie-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.movie-card {
+    background: #2c3e50;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    width: 150px;
+}
